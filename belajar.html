@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>belajar</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+</head>
+<body>
+    <div>
+        <h1><b>semangat yaa mari mencoba!</b></h1>
+    </div>
+    <div>
+        <p><h2>disini kita akan menggunakan tools-tools sebagai berikut.</h2></p>
+        <ul>
+            <li>1.teks editor:VC code atau teks editor yang lain</li>
+            <li>2.kode program:HTML dan CSS</li>
+            <li>3.browser:chrome, mozila dan sebagainya</li>
+        </ul>
+    </div>
+<div>
+    <ul>
+        <p><h3>Pertama buka teks editor kamu. Setelah dibuka kita akan membuat folder proyek terlebih dahulu.</h3></p>
+        <p><h3> Kamu dapat menyimpan folder di sembarang tempat. Ok langsung saja. Kita akan membuat 2 buah file.</h3></p>
+        <p><h3> Diantaranya index.html dan style.css.</h3></p>
+    </ul>
+    <link rel="stylesheet" href="belajar 1.css">
+    <br>
+    <p><h3>salin untuk coding HTML kalian</h3></p>
+    <textarea name="50" id="" cols="50" rows="50"><!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Biodata Saya - www.malasngoding.com</title>
+            <link rel="stylesheet" type="text/css" href="style.css">
+        </head>
+        <body>
+            <div class="kotak">
+         
+                <div class="judul">
+                    <h1>BIODATA DIRI</h1>
+                </div>
+         
+                <div class="blok">
+         
+                    <h2>Informasi</h2>			
+                    
+                    <div class="kiri">
+                        <img src="foto.jpg">				
+                    </div>
+         
+                    <div class="kanan">
+                        <table>
+                            <tr>
+                                <th>Nama</th>
+                                <th>:</th>
+                                <td>Santono Sujatmiko</td>
+                            </tr>
+                            <tr>
+                                <th>Tempat</th>
+                                <th>:</th>
+                                <td>Medan</td>
+                            </tr>
+                            <tr>
+                                <th>Tgl.Lahir</th>
+                                <th>:</th>
+                                <td>15 September 1994</td>
+                            </tr>
+                            <tr>
+                                <th>Agama</th>
+                                <th>:</th>
+                                <td>Islam</td>
+                            </tr>
+                            <tr>
+                                <th>Alamat</th>
+                                <th>:</th>
+                                <td>Jl. Merpati Putih, No. 187, Blok - Cimahi, Bandung</td>
+                            </tr>
+                            <tr>
+                                <th>Email</th>
+                                <th>:</th>
+                                <td>santono@malasngoding.com</td>
+                            </tr>
+                            <tr>
+                                <th>No.HP</th>
+                                <th>:</th>
+                                <td>+62812-3456-7890</td>
+                            </tr>
+                            <tr>
+                                <th>Website</th>
+                                <th>:</th>
+                                <td><a href="https://www.malasngoding.com">www.malasngoding.com</a></td>
+                            </tr>
+                        </table>
+                        
+                    </div>
+         
+                </div>		
+         
+                <div class="blok">
+         
+                    <h2>Pendidikan</h2>			
+                    
+                    <div>
+                        <ul>
+                            <li><b>2000 - 2006</b> SD 1 Negeri Medan</li>
+                            <li><b>2006 - 2009</b> SMP 1 Negeri Jakarta</li>
+                            <li><b>2009 - 2012</b> SMA 1 Negeri Jakarta</li>
+                            <li><b>2012 - 2016</b> Universitas Indonesia</li>
+                        </ul>
+                    </div>
+         
+                </div>
+         
+                <div class="blok">
+         
+                    <h2>Pengalaman Kerja</h2>
+                    
+                    <div>
+                        <ul>
+                            <li>
+                                <b>2017 - 2019</b> - <i>Back-End Developer</i> - di Di PT. Teknologi Indonesia
+                            </li>
+                            <li>
+                                <b>2020 - Now</b> - <i>Full Stack Developer</i> - di Di PT. BOX Tech AI Indonesia
+                            </li>
+                        </ul>
+                    </div>
+         
+                </div>
+         
+                <div class="blok">
+         
+                    <h2>Keahlian</h2>			
+                    
+                    <div>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>PHP</li>
+                            <li>CodeIgniter</li>
+                            <li>Laravel</li>
+                            <li>NodeJS</li>					
+                        </ul>
+                    </div>
+         
+                </div>
+            </div>
+        </body>
+        </html></textarea>
+        <p><h3>salin untuk coding CSS kalian</h3></p>
+    <textarea name="50" id="" cols="50" rows="50">body{
+        font-family: monospace;
+        font-size: 13pt;
+    }
+     
+    th{
+        text-align: left;
+    }
+     
+    img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+     
+    .kotak{
+        border: 1px solid black;
+        width: 60%;
+        margin: 10px auto;
+        padding: 20px;
+    }
+     
+    .judul{
+        text-align: center;
+            background: yellow;
+    }
+     
+    .blok{
+        overflow: hidden;
+    }
+     
+    .kiri{
+        width: 20%;
+        float: left;
+    }
+     
+    .kanan{
+        width: 70%;
+        padding:0px 20px;	
+        float: left;
+    }
+     
+    @media only screen and (max-width: 768px) {
+        .kotak{
+            width: 100%;
+            padding: 0px;
+            border: none;
+        }
+        
+        .kiri{
+            width: 100%;
+        }
+     
+        .kanan{
+            width: 100%;
+            padding: 0;
+        }
+    }</textarea>
+    <h4>untuk template awal kamu!</h4></a>
+        <br>
+        <p><b>sekian dari saya trimakasih.</b></p>
+        <a href="index.html">klik di sini untuk kembali!</a>
+</div>
+</body>
+</html>
